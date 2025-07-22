@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "animejs": "^4.0.2",
+    "bootstrap-icons": "^1.13.1"
+  }
+}

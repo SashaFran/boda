@@ -1,0 +1,83 @@
+ 
+    body { scroll-behavior: smooth; background: #f8f9fa; 
+       font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+    }
+    h1, h2, h3{
+      font-family: "Italiana", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    p, strong, span{
+
+    }
+    section { 
+      padding: 1rem 0 0 0; 
+      position: relative; 
+    }
+ 
+    .card-bg {
+      background: rgba(255,255,255,0.8);
+      border: none;
+      border-radius: 15px;
+    }
+    .title{
+
+    }
+    .hero { 
+      /* background: url('Images/Hochzeit_Sabrina_Francisco_BY_EVA_SUTTER_009.jpg') center/cover no-repeat; min-height: 100vh; display: flex; align-items: center;  */
+        background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url('Images/Hochzeit_Sabrina_Francisco_BY_EVA_SUTTER_009.jpg') center/cover no-repeat; min-height: 100vh; display: flex; align-items: center;
+  
+
+    }
+    .countdown { 
+      font-size: 1.5rem; letter-spacing: 2px; 
+    }
+    .card svg{
+      color: #edc4b3;
+    }
+    .card div:nth-child(1), .card div:nth-child(2), .card form{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+    .card div:nth-child(1){
+gap: 0.5rem;
+    }
+    .card div:nth-child(1) h2{
+      margin: 0;
+    }
+    .card div:nth-child(2){
+gap: 0.2rem;
+    }
+    .card .border{
+      border-color: #d69f7e !important;
+    }
+    li{
+      list-style: none;
+    }
+.ceremonia .card div:nth-child(2){
+  align-items: center;
+}
+.card .location{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  width: 75%;
+}
+.card .location button{
+  border: none;
+  color: black;
+  background-color: transparent;
+  text-transform: uppercase;
+}
