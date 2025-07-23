@@ -10,12 +10,25 @@
       font-weight: 400;
       font-style: normal;
     }
-    p, strong, span{
-
+    h2, h3{
+      font-size: 32px;
     }
+    p, strong, span, li, label{
+      font-size: 18px;
+    }
+    a{
+      font-size: 24px;
+    }
+    .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
     section { 
       padding: 1rem 0 0 0; 
       position: relative; 
+      text-align: center;
     }
  
     .card-bg {
@@ -23,50 +36,60 @@
       border: none;
       border-radius: 15px;
     }
-    .title{
+/*     .card{
+      min-height: 100vh; 
+    } */
+.hero { 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('Images/Hochzeit_Sabrina_Francisco_BY_EVA_SUTTER_009.jpg') center/cover no-repeat; 
+  min-height: 100vh; 
+  display: flex; 
+  align-items: center;
+}
+    
+    .reloj #seconds, .reloj #minutes, .reloj #hours, .reloj #days{
+      flex-basis: 100%;
+      -webkit-text-stroke: 0.5px #d69f7e;
+      color: white;
+    }
 
-    }
-    .hero { 
-      /* background: url('Images/Hochzeit_Sabrina_Francisco_BY_EVA_SUTTER_009.jpg') center/cover no-repeat; min-height: 100vh; display: flex; align-items: center;  */
-        background:
-  linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),
-  url('Images/Hochzeit_Sabrina_Francisco_BY_EVA_SUTTER_009.jpg') center/cover no-repeat; min-height: 100vh; display: flex; align-items: center;
-  
+.countdown .reloj {
+  /* outline: solid 1px #d69f7e; */
+  padding: 0.5rem;
+  border-radius: 0.75rem;
 
-    }
-    .countdown { 
-      font-size: 1.5rem; letter-spacing: 2px; 
-    }
-    .card svg{
+}
+.countdown small {
+  font-size: 0.85rem;
+  color: black;
+}
+
+
+    .card svg, .container svg{
       color: #edc4b3;
     }
-    .card div:nth-child(1), .card div:nth-child(2), .card form{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
+    .navbar-toggler-icon{
+      background-image: none
     }
-    .card div:nth-child(1){
+
+/*     .card div:nth-child(1){
 gap: 0.5rem;
-    }
+    } */
     .card div:nth-child(1) h2{
       margin: 0;
     }
-    .card div:nth-child(2){
+/*     .card div:nth-child(2){
 gap: 0.2rem;
-    }
+    } */
     .card .border{
       border-color: #d69f7e !important;
     }
     li{
       list-style: none;
     }
-.ceremonia .card div:nth-child(2){
+/* .ceremonia .card div:nth-child(2){
   align-items: center;
-}
+} */
 .card .location{
   display: flex;
   flex-direction: row;
